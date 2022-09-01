@@ -1,0 +1,80 @@
+header{
+    nav, .navbar{
+        color: aliceblue;
+    }
+    nav, .navColor{
+        background-color: rgb(111, 159, 255);
+
+        .logo{
+            width: 12%;
+        }
+    }
+}
+
+main{
+    background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/01-watertowers.webp?w=1450&h=816);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    div, .titulos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        text-align: center;
+        color: aliceblue;
+
+        h3{
+            color: rgb(38, 43, 48);
+        }
+    }
+
+    section, .cardsIndex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 25px;
+
+        div, .card{
+            background-color: cadetblue;
+
+            h5{
+                color: darkblue;
+            }
+        }
+
+        .btn-primary{
+            background-color: rgb(64, 172, 71);
+            &:hover{
+                background-color: rgb(13, 20, 9);
+            }
+        }
+
+        
+    }
+}
+
+footer{
+    background-color: rgb(111, 159, 255);
+    color: aliceblue;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+
+    .textFooter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

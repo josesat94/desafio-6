@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header nav, header .navbar {
+  color: aliceblue; }
+
+header nav, header .navColor {
+  background-color: #6f9fff; }
+  header nav .logo, header .navColor .logo {
+    width: 12%; }
+
+main {
+  background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/01-watertowers.webp?w=1450&h=816);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh; }
+  main div, main .titulos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    color: aliceblue; }
+    main div h3, main .titulos h3 {
+      color: #262b30; }
+  main section, main .cardsIndex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 25px; }
+    main section div, main section .card, main .cardsIndex div, main .cardsIndex .card {
+      background-color: cadetblue; }
+      main section div h5, main section .card h5, main .cardsIndex div h5, main .cardsIndex .card h5 {
+        color: darkblue; }
+    main section .btn-primary, main .cardsIndex .btn-primary {
+      background-color: #40ac47; }
+      main section .btn-primary:hover, main .cardsIndex .btn-primary:hover {
+        background-color: #0d1409; }
+
+footer {
+  background-color: #6f9fff;
+  color: aliceblue;
+  text-align: center;
+  width: 100vw;
+  height: 20vh; }
+  footer .textFooter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
